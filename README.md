@@ -9,7 +9,7 @@ For example:
 ^0.38.0
 ````
 * Install flow by running `npm install --save-dev flow-bin@^0.38.0` (replace ^0.38.0 with version in your `.flowconfig` file).
-* Open `package.json` file and add `"flow": "flow"` into "scripts"
+* Open `package.json` file and add `"flow": "flow"` into "scripts".
 For example:
 ````json
   "scripts":{
@@ -77,7 +77,7 @@ module.exports = {
 }
 
 ````
-* Open `package.json` file and add `"eslint": "eslint src/**/*.js"` into "scripts"
+* Open `package.json` file and add `"eslint": "eslint src/**/*.js"` into "scripts".
 For example
 ````json
   "scripts":{
@@ -88,5 +88,5 @@ For example
 * Run `npm run eslint`, eslint should be running now and show linting warnings/errors in the console.
 
 ## Setup for IDE
-* Depend on your favourite IDE (Sublime, Nuclide, Visual Code), choose appropriate extensions, if above steps are finished, the extensions should be running after install successfully.
+* Depend on your favourite IDE (Sublime Text, Nuclide, Visual Code, ...), choose appropriate extensions, if above steps are finished, the extensions should be running after install successfully.
 * For Nuclide, the extension is only linter-eslint and flow extension is already built-in.
