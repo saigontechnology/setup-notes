@@ -12,7 +12,6 @@ For example:
 * Open `package.json` file and add `"flow": "flow"` into "scripts"
 For example:
 ````json
-  [...]
   "scripts":{
     "flow": "flow"
   }
@@ -81,7 +80,6 @@ module.exports = {
 * Open `package.json` file and add `"eslint": "eslint src/**/*.js"` into "scripts"
 For example
 ````json
-  [...]
   "scripts":{
     "flow": "flow",
     "eslint": "eslint src/**/*.js"
